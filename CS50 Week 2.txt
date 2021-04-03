@@ -1,0 +1,104 @@
+Week 2       -       https://ide.cs50.io/    man.cs50.io   
+
+	terminal - help50 make buggy1
+debug50 ./buggy    -  will check code
+style50 hello.c 	  -  will check the style and give feedback
+help50 ./buggy       -  will help you with errors
+   
+different data types up more bites
+
+    char c1 = 'H';       v   will change it into a integer instead of %C
+    char c2 = 'I';
+    char c3 = '!';        printf("%i %i %i\n", (int) c1, (int) c2, (int) c3);
+
+
+   
+    int scores[3];     ---> int n = 3;   -------> const int N = 3; (over int main(void)
+    scores[0] = 72;
+    scores[1] = 73;
+    scores[2] = 33;                                                                     N
+                                                                                                 n
+    printf("Average: %i\n", (scores[0] + scores[1] + scores[2]) / 3);
+const - set a value to forget about. Put the value at the very top to avoid searching
+
+for   -  used for loops  int a;
+	                     for( a = 10; a < 20; a = a + 1 )
+                                        {printf("value of a: %d\n", a);	}
+do  -   FIRST
+while   ---> usually set a rule like number has to be positive between or equal to for it to work
+		while (dollar <= 0);
+
+while (n < 1 || n > 8);  -  Used to loop until user enters a positive numbers
+ 
+kids[i] = get_int("Age %i: ", i + 1);   -    adds number to the loop %i   score1 score2
+
+An array (List) is a variable that can store multiple values. For example, if you want to store 100 integers, you can create an array for it.
+	int data[100];    kids[i] = get_int("
+
+array average   -   takes two inputs (int lenght, int array[])  (length and array can be called anything
+					       ^array of integers
+		get_int returns and int     get_string returns a string
+	               float average - returning the flow / int average returning
+	   	 	return sum / length
+
+In C - arrays don't remember their own lengths    .1f%
+
+string - is a data type ,   but it's just an array of characters   it's as many bytes as needed
+	null character -  \0   or null terminal character   is special syntax for eight zero bits
+
+string names[2];		New way to use strings taking off training wheels
+    names[0] = "Jack";
+    names[1] = "Jill";          prinft("%c%c%c%c\n", names[0][0]  first 0 get Jack's name second 0 get first letter
+
+string[0]  -  [0][0] to however long the string is than followed by \0 the last [0][4] for Jack
+
+Making uppsercases or lower cases
+	calling if function      if (s[i] >= 'a' && s[i] <= 'z')   then     printf("%c", s[i] - 32);  <---- OLD TRASH
+
+
+string s = get_string("Who: ");     Calling the input
+    printf("Have a great day ");      
+    for(int i = 0; s[i] != '\0'; i++)       for the loop int(wanting to have the length of the array by using
+    {				                    using s[i] !='\0\'  not equal to NULL \0 uses char before
+        printf("%c\n", s[i]);				can also use i < strlen(s) - whole length of that string,
+						#include <string.h> i = 0; i < strlen(s); i++)
+
+int main(void) <--- Don't want any arguments
+int main (int argv, string argv[])  <---- lets you accept command line arguments
+	main in default in C, has a return value of 0,   main can return non 0 messages
+
+in argv   
+	first word you type (program's name is [0]    second word you type is argv[1]
+
+score - characteristic of a variable that defines from which functions that variable may be accessed
+		- local within the code and can't be used outside
+		- global declared outside of all functions, any functions may refer it 
+
+int main(int argc, string argv[])
+argc - argument count 
+	./program is 1  ./program 50 52 argc=3
+
+argv - argument vector 
+	stores strings, one string per element
+	everything that is stores in argv is a STRING
+
+ if(argc == 2)
+    {
+        printf("Success");
+        printf("\n%s", argv[1]);
+
+if (s[i] >= 'a' && s[1] <= 'z')    <= >=  ==
+	
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,24 @@
+.:* Week 4 *:.
+
+	printf("%i\n", n) -  prints 50
+&50	printf("%p\n", &n) - prints   0x7fff9a08c09c
+
+pointer - address in a computer's memory (some value)
+
+& - what's the address
+* - goes to the address ( a specific address
+
+*& - undoes the operation (not to use in practice)
+
+typedfef struct
+{
+	string name;
+	string number;
+} person;
+
+ typedef char *string                   <- name I wanna give
+    ^ give me a new data type
+                ^ type of value is going to be a name of a character
+
+Nvm this is to make a char in CS50 to a string.
+valgrind ./

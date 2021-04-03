@@ -1,0 +1,69 @@
+clang (used to output binaryforcomputers) hello.c ./a.out (period used to click
+  to compile it and put together code make hello
+#include <studio.h>
+int main(void)
+
+
+string answer = get_string("What's your name?\n");
+        ^variable   printf("hello, %s\n"        );
+=
+ask What's your name? and wait
+say join hello, answer   
+
+Variable or name of variable -> counter - 0
+string is words while integer is number -> int counter = 0
+
+semicolon: after lines of functions not conditions
+ printf("dfdf");  not  if (if(x > y) 
+
+int - 4 bytes of memory (32 bits 8 in each bit) range of -2 power of 32 to 2 power 32
+unsigned int - double the range of values, but not negative
+char (character) - variables that will store single characters (only use 1 byte)
+float - real numbers Decimal point (4 bytes of memory)  3.14159
+double - stores real variables (8 bytes 64 bits) more specific more decimal
+void - type that doesn't return a value (Ex: Printf) (Place holder of nothing)
+bool - true and false (<cs50.h>) (In C nonzero is true while as 0 is false)
+string - words, collections of characters (<cs50.h>)
+structures (structs) - will group strings and int
+
+Using a variable:   (one line instead of 2)
+int number;    number = 17;  =    int number = 17; 
+char latter;     letter = 'H';      =     char letter = 'H';
+
+%c char
+%f float,  %lf double = real number
+% i int
+% li long = long number 
+%s string
+
+Modulous operator (%) gives remainder of / 
+int m = 13 % 4;    // m is now 1
+
+Arithmetic Operators - x = x * 5;      =    x *= 5;
+		       x++;   x--;     =    x = x +1 and x = x - 1 
+Boolean Expression -   Using (&&) if x and y are true
+		    -    (||) if atleast one are true or both
+		    -   (called bang or not) (!) x is true not x is false or vise versa
+Relational Operators -  (x < y)  ( x >y) (x <= y) (x >= y)
+	   	     -   Equality (x == y) Inequality (x != y)
+Conidtions     -      Allows your program to make decisions and take different directions
+	
+if (boolean-expression)
+{ 		}
+else
+{ 		}
+switch 		-   Uses discrete cases to make decisions
+	If the boolean-expression is true excute from top or false excute from the bottom
+	int x = (expr) ? 5 : 6;     if it's 5 okay if it's not then it's 6
+
+Loops		- Allows your program to excute repeatedly
+	while (true) {  } - will run fover ( video game clouds continously moving)
+	while (boolean-expr) {  } - if true will repeat forver until false
+	do {   } while (Boolexpr) -  will run once then forever until not (asking for positive number)
+	for - repeat this specific numbers of times for(int i = 0; i < 10; i++) repeat 10
+              for (start; expr; increment) - repeated til no longer true (ask them for a number of times)
+
+Linux Commands:
+	ls - list content cd- change directory   pwd - present working directory  cd .. go back
+	copy (cp hello.txt)    remove  (rm hi.txt)  rename (mv) hi.txt bye.txt
+	

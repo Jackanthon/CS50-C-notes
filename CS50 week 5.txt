@@ -1,0 +1,14 @@
+vaglrind
+
+malloc make allocated memory and size of is making enough for that size sizeof(int)
+
+memory can only be allocated with pointers
+malloc is built in <stdlib.h>
+(void(=* )malloc(size_t size)
+	allocates memory according to size of specified and returns a pointer
+		size_t is a unsigned int
+
+malloc doesn't know what it's pointing to
+	int *ptr = (int* )malloc(4)
+		want to store int   why we used int
+heap - area of reserved computer memory 

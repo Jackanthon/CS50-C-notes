@@ -1,0 +1,30 @@
+Searching for a string length
+For i fom 0 to n-1 
+	If i'th elementh is 50
+		return true
+	return false
+
+If no items
+	return false
+If middle item is 50
+	return true
+Else if 50 < middle item
+	search left half
+Else if 50 > middle item 
+	search right half
+
+O - order of (on the order of) - big O notation a approximation 
+
+ int numbers[6] = {4, 8, 15, 16, 23, 42};
+    
+    for (int i = 0; i < 6; i++)
+    {
+        if (numbers[i] == 50)
+
+CANNOT use == for string, because it's an array dickhead
+	if (strcmp(names[i], "EMMA") == 0)
+
+typedef struct - define a type  
+		struct is a container for multiple data types
+
+recursiion - if it calls itself or references itself  function calls itself (something happeing again and again)
